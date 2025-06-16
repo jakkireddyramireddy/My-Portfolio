@@ -6,7 +6,6 @@ import {BrowserRouter,Routes,Route,Link} from 'react-router-dom';
 
 function App() {
   return (
-    <div >
     <BrowserRouter>
       <div className="nav">
         <Link to={'/'} className='navbu'>Home</Link>
@@ -20,10 +19,9 @@ function App() {
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Skills" element={<Skills />} />
         </Routes>
-    
       </div>
       </BrowserRouter>
-    </div>
+   
   );
 }
 

@@ -20,8 +20,23 @@ button{
     border-radius: 20px;
 }
 .sce{
-    display: flex;
-    flex-direction: column;
-    gap:60px;
-    
+    width: 40%;
 }
+.sce div{
+    display: flex;
+    flex-direction: row ;
+    gap:10%;
+    margin-top: 10%;
+}
+.chatapp{
+    display: flex;
+    width:fit-content;
+    margin-top: 5%;
+
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    gap:5%
+}
+

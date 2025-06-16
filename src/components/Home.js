@@ -8,7 +8,7 @@ export default function Home() {
    
       <div className='text'>
         <h1>HAI..... I AM RAMIREDDY</h1>
-      <p>developer</p>
+      <p>Java developer</p>
       </div>
       <div>
       <img src='https://cdn.pixabay.com/photo/2015/08/05/04/25/people-875617_1280.jpg' width={"400px"} height={"auto"} className='pp'/>
@@ -18,6 +18,7 @@ export default function Home() {
         <div>contact me at :</div>
        <div> phone:+91 6309122407</div>
        <div> mail:jakkireddyramireddy9959@gmail.com</div>
+       <div> LeetCode:rami9959</div>
       </div>
       </div>
       

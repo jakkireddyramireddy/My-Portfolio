@@ -88,7 +88,7 @@ function App() {
         }
       `}</style>
 
-      <BrowserRouter>
+      <BrowserRouter basename="/My-Portfolio">
         <div className="header">
           <div className="nav-links">
             <Link to="/"><FaHome className="nav-icon" title="Home" /></Link>
